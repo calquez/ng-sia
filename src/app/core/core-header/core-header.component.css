@@ -1,0 +1,43 @@
+
+.header .spacer {
+  flex: 1 1 auto;
+}
+
+.header-menu hr {
+	margin: 0px 5px;
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+.header-menu .mat-menu-content {
+	padding: 0px;
+}
+
+.header-menu .mat-menu-item {
+	height: 35px;
+	padding: 0px 8px;
+	line-height: 35px;
+}
+
+.header-menu .mat-menu-item span, 
+.header-menu .mat-menu-item .mat-icon {
+    color: #333;
+}
+
+.header-menu .mat-menu-item span {
+	font-size: 13px;
+    margin-right: 0px;
+    text-decoration: none;
+    line-height: 25px;
+}
+
+.header-menu .mat-menu-item .mat-icon {
+	font-size: 15px;
+    margin-right: 0px;
+    text-decoration: none;
+    line-height: 22px;
+}
+
+.header-menu .mat-menu-item[disabled] span, 
+.header-menu .mat-menu-item[disabled] .mat-icon {
+	color: rgba(0, 0, 0, 0.38) !important;
+}

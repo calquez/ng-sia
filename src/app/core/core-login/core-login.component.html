@@ -1,0 +1,41 @@
+<div fxLayout="row">
+	
+	<div class="" fxFlex><!--  --></div>
+	<div class="login" fxFlex="450px" fxLayout="column">
+		
+		
+		<div fxLayout="row">
+			<div class="" fxFlex="60px"><mat-icon>person</mat-icon></div>
+			<div fxFlex fxLayout="column">
+				<div class="title" fxFlexAlign="start">
+					<span>Iniciar sesión</span>
+				</div>
+				<div class="subtitle" fxFlexAlign="start">
+					<span>Utiliza tu cuenta de <b>Alimarket-ngSia</b></span>
+				</div>
+			</div>
+		</div>
+		
+		<form class="" fxLayout="column" fxLayoutAlign="start stretch">			
+			
+			<mat-form-field fxFlex class="custom-container">
+				<input matInput placeholder="Correo electrónico" type="text" required autocomplete="new-password">
+				<span matSuffix>@alimarket.es</span>
+			</mat-form-field>
+			 
+			<mat-form-field fxFlex class="custom-container">
+				<input matInput placeholder="Introduce tu contraseña" type="password" required autocomplete="new-password">
+			</mat-form-field>
+
+			<button mat-raised-button color="primary" fxFlex="100" class="custom-container" (click)="login()">
+					Siguiente 
+			</button>
+		</form>		
+		<div class="footer" fxFlex fxFlexAlign="end">
+			<span>© 2017 Publicaciones Alimarket S.A.</span>
+		</div>
+	
+	</div>
+	<div class="" fxFlex><!--  --></div>
+
+</div>

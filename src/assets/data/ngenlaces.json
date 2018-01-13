@@ -1,0 +1,30 @@
+[
+  {
+    "nombre": "Eventos",
+    "descripcion": "Gestión de <strong>Eventos</strong>",
+    "routerLink": "/alimarket-ngsia/events",
+    "iconClass": "fa-tags",
+    "colorClass": "bg-primary"
+  },
+  {
+    "nombre": "Newsletters",
+    "descripcion": "Envío de <strong>Newsletters</strong>",
+    "routerLink": "/alimarket-ngsia/newsletters",
+    "iconClass": "fa-send-o",
+    "colorClass": "bg-success"
+  },
+  {
+    "nombre": "Titulares",
+    "descripcion": "Envío de <strong>Titulares</strong>",
+    "routerLink": "/alimarket-ngsia/headline",
+    "iconClass": "fa-send",
+    "colorClass": "bg-danger"
+  },
+  {
+    "nombre": "Roles",
+    "descripcion": "Administración de <strong>Usuarios / Roles</strong>",
+    "routerLink": "/alimarket-ngsia/user-roles",
+    "iconClass": "fa-users",
+    "colorClass": "bg-info"
+  }
+]

@@ -1,0 +1,11 @@
+<div fxFlex="100" fxLayout="column">
+	<div fxLayout="column"><app-eventos-header></app-eventos-header></div>
+	<div fxLayout.gt-sm="row" fxLayout.lt-md="column">
+		<section fxFlex.gt-sm="250px" fxFlex.lt-md="100"><app-eventos-navbar></app-eventos-navbar></section>
+		<section fxFlex="100" fxLayout="column">
+			<div fxFlex="100">Eventos</div>
+			<app-eventos-panel></app-eventos-panel>
+		</section>
+		<section fxFlex.gt-sm="400px" fxFlex.lt-md="100"><app-eventos-navbar></app-eventos-navbar></section>
+	</div>
+</div>

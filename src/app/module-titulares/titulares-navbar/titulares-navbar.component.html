@@ -1,0 +1,14 @@
+
+<div fxFlex="100">
+
+	<mat-form-field>
+		<mat-select placeholder="Seleccionar publicación">
+		<mat-option >Última situación</mat-option>
+	    <mat-option >AAAAAA</mat-option>
+	  	</mat-select>
+	</mat-form-field>
+
+
+
+	<mat-calendar #myDate (selectedChange)="getChangedValue($event, this)" [startView]="'year'" [selected]="date" ></mat-calendar>
+</div>

@@ -1,0 +1,35 @@
+<div class="header" fxFlex="100">
+
+	<mat-toolbar color="primary"> 
+		<mat-icon>gesture</mat-icon>
+		<span style="margin-right:50px">ngSia <small>v0.0.1</small></span> 
+		
+		<span class="spacer"></span>
+		
+		<button mat-button [matMenuTriggerFor]="mAppGen" >
+			Herramientas
+		</button>
+		<button mat-button [matMenuTriggerFor]="mUser" >
+			<mat-icon>person</mat-icon>
+		</button>
+	
+	</mat-toolbar>
+	
+	<mat-menu class="header-menu" #mAppGen="matMenu" [overlapTrigger]="false" yPosition="below" xPosition="before">
+		<button mat-menu-item [routerLink]="['/ng-sia/eventos']"><mat-icon> group </mat-icon><span>Gest. Eventos</span></button>
+		<button mat-menu-item [routerLink]="['/ng-sia/newsletters']"><mat-icon> description </mat-icon><span>Newsletter</span></button>
+		<button mat-menu-item [routerLink]="['/ng-sia/titulares']"><mat-icon> book </mat-icon><span>Titulares</span></button>
+		<button mat-menu-item [routerLink]="['/newsletter']" disabled><mat-icon> person outline </mat-icon><span>Admin. Usuarios</span></button>
+		<button mat-menu-item [routerLink]="['/newsletter']"><mat-icon> loyalty </mat-icon><span>Gest. Promociones</span></button>
+	</mat-menu>
+	
+	<mat-menu class="header-menu" #mUser="matMenu" [overlapTrigger]="false" yPosition="below" xPosition="before">
+		<button mat-menu-item disabled><span>david.calvo</span></button>
+		<hr/>
+		<button mat-menu-item><mat-icon> home </mat-icon><span>Home</span></button>
+		<button mat-menu-item><mat-icon> cancel </mat-icon><span>Salir</span></button>
+		<hr/>
+		<button mat-menu-item><mat-icon>exit_to_app</mat-icon><span>Cerrar ngSia</span></button>
+	</mat-menu>
+
+</div>

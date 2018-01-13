@@ -1,0 +1,39 @@
+.footer {
+    border-top: 1px solid #E0E4E7;
+    margin: 20px 0px 0px 0px;	
+}
+
+.footer .footer-links {
+	margin: 30px 15px 30px 15px;
+}	
+
+.footer .footer-help {
+    margin: 0px;
+    padding: 15px;
+}
+
+.footer .footer-copyright {
+    border-top: 1px solid #E0E4E7;
+    padding: 15px;
+}
+
+.footer a {
+	font-family: "Open Sans",sans-serif;
+    color: #637986;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    height: 16px;
+    margin: 0px 0px 10px 10px;
+}
+
+.footer a:hover {
+    color: #b2b2b2;
+}
+
+.footer p {
+	font-family: "Open Sans",sans-serif;
+    color: #637986;
+	font-size: 11px;
+}

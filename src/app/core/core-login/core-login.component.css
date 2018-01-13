@@ -1,0 +1,39 @@
+div.login {
+	margin-top: 180px;
+	background-color: #ffffff;
+	padding: 48px 40px 36px;
+	transition: .2s;
+	box-shadow: 1px 1px 1px 1px #B0BEC5;
+}
+
+div.login .mat-icon {
+	font-size: 50px;
+}
+
+div.login .title>span {
+	font-size: 22px;
+}
+
+div.login .subtitle>span {
+	font-size: 14px;
+}
+
+div.login>form {
+	margin-top: 75px;
+}
+
+div.login>form>.mat-form-field.custom-container {
+	margin-bottom: 30px;
+}
+
+div.login>form>button.custom-container {
+	margin-top: 30px;
+}
+
+div.login>.footer {
+	margin-top: 15px;
+}
+
+div.login>.footer>span {
+	font-size: 10px;
+}

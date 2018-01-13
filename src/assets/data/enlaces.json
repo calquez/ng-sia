@@ -1,0 +1,50 @@
+[{
+        "nombre": "Openbravo ERP",
+        "url": "http://ob2/openbravo",
+        "logo": "openbravo-logo.png",
+        "color": "#8ec54f",
+        "tags": ["openbravo", "ob", "publicidad", "suscripciones", "administracion", "informatica"]
+    },
+    {
+        "nombre": "Control de Incidencias",
+        "url": "http://helpdesk.alimarket.net/",
+        "logo": "redmine-logo.png",
+        "color": "#af1905",
+        "tags": ["errores", "incidencias", "peticiones", "helpdesk", "tareas", "administracion", "informatica", "redaccion", "publicidad", "suscripciones"]
+    },
+    {
+        "nombre": "Gestión y Envío de Encuestas",
+        "url": "http://encuesta.alimarket.es/admin/admin.php",
+        "logo": "surveyor-logo.png",
+        "color": "#545050",
+        "tags": ["encuestas", "informatica", "redaccion"]
+    },
+    {
+        "nombre": "JSIA - Sistema de Información de Alimarket",
+        "url": "http://jsia/jsia/control.do",
+        "logo": "jsia-logo.png",
+        "color": "#f05412",
+        "tags": ["jsia", "informatica", "redaccion"]
+    },
+    {
+        "nombre": "JSEC - Envío de Cuestionarios",
+        "url": "http://jsec/jsec/control.do",
+        "logo": "jsec-logo.png",
+        "color": "#51b155",
+        "tags": ["jsec", "cuestionarios", "informatica", "redaccion"]
+    },
+    {
+        "nombre": "Alfresco",
+        "url": "http://alfresco.alimarket.es:8080/share/",
+        "logo": "alfresco-logo.png",
+        "color": "#cedd3e",
+        "tags": ["alfresco", "facturas", "documentos", "logos", "publicidad", "administracion", "informatica"]
+    },
+    {
+        "nombre": "Correo",
+        "url": "https://zmx.alimarket.es/",
+        "logo": "zimbra-logo.png",
+        "color": "#1c87c3",
+        "tags": ["correo", "email", "zimbra", "zmx", "administracion", "informatica", "redaccion", "publicidad", "suscripciones"]
+    }
+]

@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* @import '~@angular/material/prebuilt-themes/deeppurple-amber.css'; */
+body {
+	background-color: #fff;
+	font-family: Roboto, Helvetica Neue Light, Helvetica Neue, Helvetica,
+		Arial, Lucida Grande, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857;
+	margin: 0px;
+	color: #212121;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-animation: autofill 0s forwards;
+    animation: autofill 0s forwards;
+}
+
+@keyframes autofill {
+    100% {
+        background: transparent;
+        color: inherit;
+    }
+}
+
+@-webkit-keyframes autofill {
+    100% {
+        background: transparent;
+        color: inherit;
+    }
+}
+
+
+
